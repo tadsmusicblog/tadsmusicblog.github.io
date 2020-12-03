@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <style>
+       *{
+            margin:0;
+            padding:0;
+            font-family:sans-serif;
+        }
+        #heading {
+            background-color:#293250;
+            padding-top:1rem;
+            padding-bottom:1rem;
+            padding-left:1rem;
+            padding-right:0;
+        }
+        #heading h1 {
+            color:  #FAF3DD;
+        }
+        body {
+            background-color: #FAF3DD;
+        }
+        #img_1 {
+            padding:2rem;
+            padding-left:3rem;
+        }
+       .welcome {
+           margin-left:24rem; 
+           margin-top:-21.25rem;
+           box-sizing: border-box;
+           width:35%;
+       }
+       .welcome p{
+           padding-top:0.3rem;
+       }
+       #links {
+           padding-top:30px;
+       }
+       a:link {
+           text-decoration: none;
+           color:#FAF3DD;
+       }
+       a:visited {
+           color:#FAF3DD;
+       }
+       a:hover {
+           color:#cfccbf;
+       }
+       #heading a{
+           margin-left:40rem;
+           top:25px;
+           position: absolute;
+       }
+       .sidebar {
+          position: absolute;
+          right:-0rem;
+          top:6.1rem;
+          box-sizing: border-box;
+       }
+       .sidebar h1{
+              margin-left:-0.3rem;
+          }
+       @media only screen and (max-width:1200px) {
+          .welcome {
+              margin-top:auto;
+              margin-left:3rem;
+              width:65%;
+          }
+          .sidebar{
+              margin-top:auto;
+              position:relative;
+              margin-left:3rem;
+              width:65%;
+              padding-bottom:1rem;
+          }
+         
+         #heading a{
+             position: relative;
+             top:0rem;
+             left:-24.9rem;
+         }
+       }
+       @media only screen and (min-width:1201px) {
+           .sidebar{
+               right:1rem;
+           }
+       }
+       @media only screen and (max-width:500px) {
+          #heading {
+              overflow:hidden;
+          }
+       }
+        </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="heading">
+            <h1>GIANT STEPS</h1>
+            <a href="index.html">Return home</a>
+        </div>
+        <div class="body">
+            <img id="img_1" src="giantsteps.png" height="300">
+            <div class="welcome">
+                <h1>7/10</h1>
+                <p>Giant Steps is a jazz album by John Coltrane, it was released in 1960. There are many musicians featured like John Coltrane (tenor saxophone), Tommy Flanagan (piano), Paul Chambers (bass), and Art Taylor (drums). The primary musician is John Coltrane who contributed with his saxophone and his many solos. My favorite song on here is Giant Steps. Coltrane starts with a medium tempo plus unique chord progression that lasts for around ten measures then he blasts off into lightning speed with his solo where even the other musicians are having a hard time catching up. In short, it is a very good but in no way perfect jazz album. </p>
+            </div>
+            <div class="sidebar">
+                <h1>TRACK LISTING</h1>
+                <ul>Giant Steps</ul>
+                <ul>Cousin Mary</ul>
+                <ul>Countdown</ul>
+                <ul>Spiral</ul>
+                <ul>Syeeda's Song Flute</ul>
+                <ul>Naima</ul>
+                <ul>Mr. P.C.</ul>
+                
+            </div>
+        </div>
+    </div>
+              
+</body>
+</html>
